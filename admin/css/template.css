@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-FD.eot');
+    src: url('../fonts/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-FD.woff') format('woff'),
+    url('../fonts/Vazir-FD.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+.tooltip{
+    font-family: Vazir;
+}
+body{
+    font-family: Vazir;
+}
+
+#main{
+    padding-top: 100px;
+}
