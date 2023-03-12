@@ -1,4 +1,5 @@
 <?php
+$title="Login";
 require_once 'init.php';
 ?>
 

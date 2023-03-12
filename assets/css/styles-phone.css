@@ -6,4 +6,8 @@
     .signin-box{
         margin: 5% auto;
     }
+    body
+    {
+        font-size: 12px;
+    }
 }

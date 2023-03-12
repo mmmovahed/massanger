@@ -5,21 +5,7 @@
     //session_start();
     date_default_timezone_set('Asia/Tehran');
     require_once 'config.php';
-//    require_once 'helper/base.php';
     $date=date("Y-m-d--h:i:s");
-//    echo $date;
-//    if(stristr($_SERVER['REQUEST_URI'],'/admin/'))
-//    {
-//        require_once 'helper/backend.php';
-//        $main = new Backend();
-//        $title="Admin dashboard";
-//    }
-//    else
-//    {
-//        require_once 'helper/frontend.php';
-//        $main = new Frontend();
-//        $title="Be intouch";
-//    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -36,7 +22,7 @@
     <link rel="icon" href="assets/img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles-phone.css">
 </head>
 <body>
