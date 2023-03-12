@@ -5,19 +5,21 @@
     //session_start();
     date_default_timezone_set('Asia/Tehran');
     require_once 'config.php';
-    require_once 'helper/base.php';
-    if(stristr($_SERVER['REQUEST_URI'],'/admin/'))
-    {
-        require_once 'helper/backend.php';
-        $main = new Backend();
-        $title="Admin dashboard";
-    }
-    else
-    {
-        require_once 'helper/frontend.php';
-        $main = new Frontend();
-        $title="Hi massanger";
-    }
+//    require_once 'helper/base.php';
+    $date=date("Y-m-d--h:i:s");
+//    echo $date;
+//    if(stristr($_SERVER['REQUEST_URI'],'/admin/'))
+//    {
+//        require_once 'helper/backend.php';
+//        $main = new Backend();
+//        $title="Admin dashboard";
+//    }
+//    else
+//    {
+//        require_once 'helper/frontend.php';
+//        $main = new Frontend();
+//        $title="Be intouch";
+//    }
 ?>
 <!doctype html>
 <html lang="en">
