@@ -144,36 +144,26 @@ padding: 5px;
 .num-text{
     margin: 20% 0 0 60%;
 }
-.chats{
-    height: 500px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-.chat div p{
-    display: inline-block;
-}
 .outgoing{
+    max-width: 60%;
     float: right;
-    max-width: 60%;
-    background-color: #0c397e;
-    display: contents;
-
-}
-.outgoing div{
-    max-width: 60%;
-    background: antiquewhite;
-    float: right;
-    margin-bottom: 15px;
-}
-.incoming div{
-    max-width: 60%;
-    background: #1c7430;
-    float: left;
-    margin-bottom: 15px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    padding: 10px;
+    margin: 15px 0;
+    background: #e5e7e7;
 }
 .incoming{
-    float: left;
     max-width: 60%;
-    background-color: #0c397e;
-    display: contents;
+    float: left;
+    background: #807f7f;
+    border-radius: 15px;
+    margin: 15px 0;
+    padding: 15px;
+    border-bottom-left-radius: 0px;
 }
+.chats{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 550px;
+ }
